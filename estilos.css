@@ -1,0 +1,158 @@
+
+/* ESTILOS PARA INDEX.HTML */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #45a049;
+    color: white;
+}
+
+#nombre-usuario {
+    font-weight: bold;
+    color: #4CAF50;
+    font-size: 24px;
+}
+
+
+/* ESTILOS PARA PAGINA2 ( GALERIA DE IMAGENES) */
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+/* ESTILO PARA PAGINA 3  ( TABLA DONDE CONTENGA LA TABLA  ) */
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    text-align: center;
+    animation: headerAnimation 2s infinite alternate;
+}
+
+@keyframes headerAnimation {
+    from {
+        background-color: #4CAF50;
+    }
+    to {
+        background-color: #45a049;
+    }
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo y animación para los encabezados */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    text-align: center;
+    animation: moveSideToSide 2s infinite alternate; /* Animación para moverse de lado a lado */
+}
+
+/* Definición de la animación de movimiento */
+@keyframes moveSideToSide {
+    0% {
+        transform: translateX(0); /* Posición inicial */
+    }
+    50% {
+        transform: translateX(10px); /* Mueve ligeramente a la derecha */
+    }
+    100% {
+        transform: translateX(-10px); /* Mueve ligeramente a la izquierda */
+    }
+}

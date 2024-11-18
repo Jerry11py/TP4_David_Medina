@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi Sitio Web</h1>
+    </header>
+    <main>
+        <h2 id="mensaje-bienvenida">Hola, visitante.</h2>
+        <p id="descripcion">Este sitio web tiene las siguientes secciones:</p>
+        <ul>
+            <li>Página 1: Menu donde se ingresa a la pagina.</li>
+            <li>Página 2: Cambio de imágenes y eventos del mouse.</li>
+            <li>Página 3: Tabla donde se pueden hacer operaciones matematicas.</li>
+        </ul>
+        <h3>Elige una página para explorar:</h3>
+        <button id="boton-pagina1" onclick="location.href='index.html'">Inicio</button>
+        <button id="boton-pagina2" onclick="location.href='pagina2.html'">Ir a Página 1</button>
+        <button id="boton-pagina3" onclick="location.href='pagina3.html'">Ir a Página 2</button>
+        <p>¡Bienvenido, <span id="nombre-usuario"></span>!</p>
+    </main>
+    <footer>
+        <p>Autor: David Medina</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
